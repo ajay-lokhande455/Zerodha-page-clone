@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 66, 66);
+
+}
+
+.navbar {
+    padding: 0 10vh;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-side img {
+    padding: 20px;
+    width: 170px;
+}
+
+.right-side {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.right-side li a {
+    color: #666;
+    font-size: 15px;
+    transition: color .3s;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17vh;
+    text-align: center;
+    gap: 12vh;
+}
+
+
+.landing-text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(66, 66, 66);
+    font-size: 2.75rem;
+    line-height: 1.25;
+}
+
+.text-container p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    padding-top: 8px;
+}
+
+.btn {
+    margin-top: 7vh;
+    padding: 8px 30px;
+    font-size: 19.2px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #387ed1;
+    border: none;
+    border-radius: 4px;
+}
+
+.container-pgs h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(66, 66, 66);
+}
+
+@media only screen and (max-width: 600px) {
+    .ecosystem {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+}
+
+.ecosystem {
+    display: flex;
+    padding: 0 14vh;
+    margin-top: 17vh;
+    gap: 60px;
+}
+
+.why-us-section {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    line-height: 28px;
+}
+
+.why-us-section h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgb(66, 66, 66);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.why-us-section a {
+    text-decoration: none;
+    color: rgb(56, 126, 209);
+}
+
+.ecosytem-img img {
+    width: 100vh;
+}
+
+.text-center-eco {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 40px;
+}
+
+.text-center-eco a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(56, 126, 209);
+}
+
+.press-logos {
+    text-align: center;
+    margin: 50px;
+}
+
+.pricing-section {
+    padding: 8vh 10vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.right-sect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.right-sect img {
+    width: 110px;
+}
+
+.pricing-box p {
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.left-sect h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.left-sect p {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.left-sect a {
+    text-decoration: none;
+    color: #387ed1;
+
+}
+
+
+/* education index section  */
+
+.education-index {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 8vh 14vh;
+}
+
+.education-text h2 {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.education-text p {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.education-index a {
+    text-decoration: none;
+    color: #387ed1;
+    padding-top: 20;
+}
+
+.visit-link {
+    padding-top: 20px;
+}
+
+/* sign-up section */
+
+.sign-up {
+    padding: 8vh 10vh;
+    align-items: center;
+    text-align: center;
+}
+
+/* about section */
+
+.copy-right img {
+    width: 180px;
+}
+
+.about-section {
+    padding: 8vh 14vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+
+.about-section p {
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 23.04px;
+    color: rgb(102, 102, 102);
+}
+
+.list-style li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.list-head li {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+footer {
+    padding: 0 10vh;
+    background-color: #fbfbfb;
+}
+
+footer p {
+    font-size: 11.4px;
+    font-weight: 400;
+    line-height: 18.72px;
+    color: rgb(155, 155, 155);
+}
+
+footer p a {
+    text-decoration: none;
+    color: #387ed1;
+}
+
+.footer-text ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-text ul li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgb(155, 155, 155);
+}
