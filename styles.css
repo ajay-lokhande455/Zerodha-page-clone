@@ -308,10 +308,14 @@ footer p a {
     }
 
     .right-side {
-        flex-direction: column;
+        display: none;
         gap: 10px;
     }
 
+    .hero-image img{
+        width: 500px;
+        padding: 0 5vh;
+    }
     .heading{
         padding: 0 5vh;
     }
