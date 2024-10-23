@@ -329,7 +329,7 @@ footer p a {
     }
 
     .press-logos img{
-        width: 400px;
+        width: 300px;
     }
 
     .sign-up{
@@ -338,6 +338,10 @@ footer p a {
     .pricing-section {
         grid-template-columns: 1fr;
         padding: 0 5vh;
+    }
+
+    .pricing-section img{
+        width: 60px;
     }
 
     .education-index {
