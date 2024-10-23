@@ -7,11 +7,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(66, 66, 66);
+    font-size: 16px;
+    line-height: 1.5;
 
 }
 
 .navbar {
-    padding: 0 10vh;
+    padding: 0 5%;
     top: 0;
     width: 100%;
     z-index: 10;
@@ -35,7 +37,7 @@ body {
 }
 
 .right-side li a {
-    color: #666;
+    color: #444;
     font-size: 15px;
     transition: color .3s;
     display: inline-block;
@@ -79,6 +81,7 @@ body {
     background-color: #387ed1;
     border: none;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
  .btn:hover {
@@ -90,14 +93,6 @@ body {
     font-weight: 500;
     line-height: 48px;
     color: rgb(66, 66, 66);
-}
-
-@media only screen and (max-width: 600px) {
-    .ecosystem {
-        display: flex;
-        flex-direction: column-reverse;
-
-    }
 }
 
 .ecosystem {
@@ -245,6 +240,7 @@ body {
     padding: 8vh 14vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 80px;
 
 }
@@ -298,4 +294,68 @@ footer p a {
     font-weight: 500;
     line-height: 48px;
     color: rgb(155, 155, 155);
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-section {
+        padding-top: 10vh;
+        gap: 5vh;
+    }
+
+    .right-side {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .heading{
+        padding: 0 5vh;
+    }
+    .ecosystem{
+        flex-direction: column;
+        padding: 0 5vh;
+    }
+
+    .ecosytem-img img {
+        width: 300px;
+    }
+
+    .press-logos img{
+        width: 400px;
+    }
+
+    .sign-up{
+        padding: 2vh;
+    }
+    .pricing-section {
+        grid-template-columns: 1fr;
+        padding: 0 5vh;
+    }
+
+    .education-index {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 5vh;
+    }
+
+    .education-img img{
+        width: 300px;
+    }
+
+    .about-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 5vh;
+    }
+
+    footer{
+        padding: 0 5vh;
+    }
+    .footer-text ul{
+        flex-wrap: wrap ;
+    }
 }
